@@ -1,0 +1,239 @@
+body {/* body */
+background-color: #ffffff;
+}
+h1{ /* title "Noticias" */
+font-size:18px;
+color:#FFFFFF;
+}
+h2{ /* title "publicaciones" */
+font-size:18px;
+color:#f7951e;
+}
+h3{ /* title "Calendario escolar ciclo 2010-2011 A" */
+font-size:12px;
+color:#59cef9;
+}
+h4{ /* title la "Ciencia para todos" */
+font-size:14px;
+color:#7ea743;
+}
+p{
+text-align:justify;
+padding:2px 0 2px 0;
+margin:0px;
+line-height:15px;
+text-decoration:none;
+color:  #416271;
+font-size:18px;
+font-weight:bold;
+}
+
+
+#main{
+width:900px;
+height:auto;
+margin:auto;
+background-color:#FFFFFF;
+}
+#main table{
+width:100%;
+background-color:#FFFFF2;
+font-size: 12px;
+}
+
+
+
+#header{ /* Contenedor donde se encuentra el nombre del plantel y el menu horizontal */
+	width:900px;
+	height:auto;
+	margin:auto;
+	}
+		#logo{ /* title "Gral. Lázaro Cárdenas del Río" */
+		width:870px;
+		padding:10px 0 10px 30px; /* arriba derecha abajo izquierda */
+		float:left;
+		}
+		/*----------------------menu horizontal-------------------------*/
+		#menu{
+		width:900px;
+		height:42px;
+		padding:0px;
+		clear:both; /* el elemento no permite flotantes a ningun lado */
+		background-color:#3380ae;
+		}
+		#menu ul{
+		list-style:none;padding:0 0 0 230px;margin: auto;display:block;
+		}
+		#menu ul li{
+		list-style:none;display:inline;float:left;width:auto;height:42px;padding:0px;line-height:42px; font-family:Arial, Helvetica, sans-serif; font-size:13px;
+		}
+		#menu ul li a{
+		height:42px; width: auto;float:left;text-decoration:none;padding:0 0 0 25px; margin:0px 3px 0px 3px;color:#fff;text-align:center;
+		}
+		#menu ul li a:hover{
+		height:42px;width: auto;text-decoration:none;color: #fff;padding:0 0 0 25px; background:url(../images/menu_arrow.gif) no-repeat left;
+		}
+		#menu ul li a.current{
+		height:42px;width: auto;float:left;text-decoration:none;padding:0px;color: #fff;padding:0 0 0 25px; background:url(../images/menu_arrow.gif) no-repeat left;
+		}
+	/*----------------middle green box-----------*/
+	#green_box{
+	width:900px;
+	height:265px;
+	clear:both;
+	background:url(../images/green_box_bg.gif) no-repeat left #1a72ab;
+	background-position:50px 0px;
+	}
+		/*----------------------menu vertical-------------------------*/
+		#menu_vertical{
+		width:263px;height: auto;padding:20px 0 0 20px; float:left;
+		}
+		#menu_vertical ul{
+		list-style:none;margin: auto;display:block; padding:0px;
+		}
+		#menu_vertical ul li{
+		list-style:none;display:block;width:auto;height:25px;padding:0px;line-height:25px;
+		}
+		#menu_vertical ul li a{
+		font-weight: bold; height:29px;display:block; width:263px;text-decoration:none;padding:0 0 0 35px; margin:7px 0 7px 0;color:#d4f0ba;background:url(../images/right_nav.gif) no-repeat center;
+		background-position:0px 0px;
+		}
+		#menu_vertical ul li a:hover{
+		font-weight: bold; height:29px;display:block;width:263px;text-decoration:none;color: #d4f0ba;padding:0 0 0 35px;margin:7px 0 7px 0; background:url(../images/right_nav_a.gif) no-repeat center;
+		background-position:0px 0px;
+		}
+		#menu_vertical ul li a.current{
+		font-weight: bold; height:29px;display:block;width:263px;text-decoration:none;padding:0px;color: #d4f0ba;padding:0 0 0 35px;margin:7px 0 7px 0; 
+		background:url(../images/right_nav_a.gif) no-repeat center;
+		background-position:0px 0px;
+		}
+		/*--------------------noticias------------------ */
+		#text_content{
+		width:600px;
+		float:left;
+		padding:10px 0 0 15px;
+		}
+	/*--------------------------main_content-------------------*/
+	#main_content{
+	width:auto;
+	height:auto;
+	clear:both;
+	}
+		#left_content{
+		width:320px;
+		height:auto;
+		margin:10px;
+		float:left;
+		padding:10px;
+		background:url(images/left_content_bg.gif) repeat-x top;
+		}
+			/*----------------------publicacion-------------------------*/
+			#publicacion{
+			width:280px;height: auto;padding:5px 0 0 0; float:left;
+			}
+			#publicacion ul{
+			list-style:none;margin: auto;display:block; padding:0px;
+			}
+			#publicacion ul li{
+			list-style:none;display:block;width:auto;height:29px;padding:0px;line-height:29px;
+			}
+			#publicacion ul li a{
+			height:29px;display:block; width:280px;text-decoration:none;padding:0 0 0 35px; margin:7px 0 7px 0;color:#6898ac;background:url(images/left_nav_arrow.gif) no-repeat left; border-bottom:1px #bedf77 dashed;
+			background-position:0px 0px;
+			font-size:13px;
+			font-family:Arial, Helvetica, sans-serif;
+			font-weight:bold;
+			}
+				#ver_todas{
+				width: auto;
+				float:right;
+				padding:3px 25px 3px 0;
+				background:url(../images/orange_bullet.gif) no-repeat right;
+				}
+				#ver_todas a{
+				text-decoration:none;
+				color:#f7941d;
+				}
+			#school_img{
+			width:280px;height: auto;padding:5px 0 0 0; float:left;
+			}
+		#right_content{
+		width:490px;
+		height:auto;
+		margin:10px 0 0 0;
+		float:left;
+		padding:10px;
+		}
+			#products_box{
+			height:110px;
+			padding:10px 0 5px 0;
+			border-bottom:1px #a7ef6e dashed;
+			}
+			#cumple{
+			width:267px;
+			height:124px;
+			float:left;
+			margin:15px 10px 10px 0;
+			background:url(../images/search_box_bg.gif) no-repeat center;
+			background-position:0px 0px;
+			}	
+				#felicitacion{
+				font-size:14px;
+				color:#7ea743;
+				padding:10px 0 0 15px;
+				float:left;
+				font-weight:bold;
+				}
+				#quien_cumple{
+				width:200px;
+				float:left;
+				color:#8b8e5d;
+				padding:0 0 0 15px;
+				}
+			#contact_information{
+			width:200px;
+			float:left;
+			padding:10px 0 0 10px;
+			}
+/*-----------------------------footer------------------*/
+#footer{
+clear:both;
+width: auto;
+height:37px;
+color: #fff;
+background-color:#3380ae;
+}
+/*---------termina Contenedores divs----------------------*/
+
+
+
+#main_content2{
+width:900px;
+height:auto;
+clear:both;
+}
+
+#publi{
+	width:900px;
+	height:autopx;
+	clear:both;
+}
+
+#text_content2{
+		width:600px;
+		height:240px;
+		float:left;
+		padding:10px 0 0 15px;
+		overflow-y: scroll /*pone scroll vertical*/
+}
+
+
+#popup {
+background-color: #000000;
+font: 15px  verdana, arial, helvetica;
+color: #ffffff;
+}
+
+
+
+
